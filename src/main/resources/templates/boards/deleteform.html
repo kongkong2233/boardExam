@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>게시물 삭제 페이지</title>
+    <link rel="stylesheet" th:href="@{/css/write.css}">
+</head>
+<body>
+<h1>게시물 삭제</h1>
+
+<form th:action="@{/boards/delete/{id}(id=${board.id})}" method="post">
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div th:if="${error}">
+        <span th:text="${error}" th:class="${error}"></span>
+    </div>
+
+    <input type="submit" th:value="DELETE">
+</form>
+</body>
+</html>

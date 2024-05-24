@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: boardexam
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/examplesdb
+    username: yubin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 80

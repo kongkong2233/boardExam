@@ -1,0 +1,92 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+td {
+    padding: 20px 8px 20px 8px;
+    text-align: center;
+    border-bottom: 1px solid #e1dad4;
+}
+th {
+    background-color: #e87520;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: #eee9e5;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.write-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.insertButton {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    background-color: #e87520;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.insertButton:hover {
+    background-color: #e8823f;
+    text-decoration: none;
+}
+
+thead {
+    margin-bottom: 20px;
+}
+
+tbody {
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.currentPage {
+    background-color: #e87520;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+}
